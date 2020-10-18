@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ClearTest Dynamic Topic Tree Prototype v1</title>
+    <meta http-equiv=Content-type content="text/html; charset=utf-8">
+    <meta name=viewport content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, target-densityDpi=device-dpi" />
+    
+    <link type=text/css href=css/bootstrap.min.css rel=stylesheet media=screen>
+    <link type=text/css href=css/font-awesome.min.css rel=stylesheet media=screen>
+    <link type=text/css href=css/jquery-ui.min.css rel=stylesheet media=screen>
+    <link type=text/css href=css/material.min.css rel=stylesheet media=screen>
+	<link type=text/css href=css/source.css rel=stylesheet media=screen>
+	<link type=text/css href=css/mdb.min.css rel=stylesheet media=screen>
+</head>
+
+<body>
+	<div class="jumbotron jumbotron-fluid" id="headerjumbo">
+		<h1 class="myheader">ClearTest</h1>
+		<center><h3 class="myheader">Dirac Business Solutions Pvt. Ltd.</h3></center>
+	</div>
+	
+	<div class="container" style="color : #00008B; font-size : 15px;">
+		<div class="row" style="margin : 20px;">
+			<h4>Write a job code from arminus.talentnow.com in the search bar. </h4>
+		</div>
+		<div class="input-group margincontrol">
+			<span class="input-group-addon" id="basic-addon2"><i class="fa fa-search fa-2x" style="margin-top : -5px;" aria-hidden="true"></i>
+			</span>
+			<input type="text" class="form-control" id="textfield" style="font-size : 15px;" placeholder="Type Job Code here" aria-describedby="basic-addon2">
+			<span class="input-group-btn">
+				<button class="btn btn-outline-secondary btn-rounded waves-effect" id="ajaxhit" style="font-size : 12px; margin : 5px;" type="button">Go!</button>
+			</span>
+		</div>
+	</div>
+	
+	<div class="container" id="insertresult" style="color : #00008B; font-size : 15px; height : 750px">
+		<div class="container chat-pane hidetillgo">
+			<center>
+				<div id="chatbox" class="hidetillgo"></div>
+				<button id="yes" class="btn btn-outline-secondary btn-rounded waves-effect extra-rounded hidetillgo"><i class="fa fa-thumbs-up" aria-hidden="true">  YES !!!</i></button>
+				<button id="no" class="btn btn-outline-secondary btn-rounded waves-effect extra-rounded hidetillgo"><i class="fa fa-thumbs-up" aria-hidden="true"> NO !!!</i></button>
+				<input type="text" id="skilltext" class="hidetilltrigger" placeholder="Type Skill here"><button id="skillsend" class="btn btn-outline-secondary btn-rounded waves-effect extra-rounded hidetilltrigger">SEND</button>
+			</center>
+		</div>
+	</div>
+	
+	
+    <script type=application/javascript src=js/jquery.min.js></script>
+    <script type=application/javascript src=js/material.min.js></script>
+    <script type=application/javascript src=js/bootstrap.min.js></script>
+    <script type=application/javascript src=js/async.min.js></script>
+	<script type=application/javascript src=js/mdb.min.js></script>
+	<script type=application/javascript src=js/source.js></script>
+</body>

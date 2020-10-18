@@ -1,0 +1,1 @@
+Contains all the fonts used by Font Awesome

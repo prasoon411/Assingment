@@ -1,0 +1,1 @@
+This directory contains all the JS files for the HTML. The main JS file is source.js that contains all the front-end logic behind the chat application.
